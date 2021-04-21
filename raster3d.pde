@@ -1,3 +1,8 @@
+/*
+AUTHOR: SAMUEL CHO (TSAO)
+DESCRIPTION: raster an image to a rotating 3D grid
+https://samuelcho.de
+*/
 //Photo by Lobacheva Ina
 PImage img;
 
