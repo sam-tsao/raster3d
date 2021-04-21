@@ -42,7 +42,8 @@ void draw(){
 
             //grep the color 
             int i  = floor(yPos * width + xPos);
-            color c = img.pixels[i];
+            i = i % (img.width * img.height); //prevent Index Out of Bounds
+            color c = img.pixels[i]; //can be optimized with bitshift
             fill(c);
 
             //scale based on hue
